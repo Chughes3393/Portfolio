@@ -6,7 +6,8 @@ const Home = () => {
         <div>
             <div id='home-div'>
                 
-                <h3>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</h3>
+                <h2>“Considering how dangerous everything is, nothing is really very frightening.”</h2>
+                <h4>- Gertrude Stein</h4>
             </div>
         </div>
     );

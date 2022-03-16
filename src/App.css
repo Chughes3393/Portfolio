@@ -1,8 +1,13 @@
 .App{
     position: relative;
     min-height: 100vh;
+    font-family: harbour
 }
 
 #content-div {
     padding-bottom: 5rem;
+}
+
+.font-link {
+    font-family: 'Inknut Antiqua'
 }

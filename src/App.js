@@ -11,13 +11,18 @@ import Journalism from './pages/journalism'
 import Creative from './pages/creative'
 import Magazines from './pages/magazines'
 
+// photos
+import RedBG3 from './photos/RedBG3.png'
+
 import { Routes, Route } from 'react-router-dom'
 
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App font-link" 
+    style={{backgroundImage: `url(${RedBG3})`}}
+    >
       <div id='content-div'>
         <Nav />
         <Routes>
