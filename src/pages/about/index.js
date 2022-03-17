@@ -2,7 +2,7 @@ import React from 'react';
 import portfolioPhoto from '../../photos/portfolioPhoto.png'
 import './styles.css'
 
-import { LoremIpsum } from 'react-lorem-ipsum';
+// import { LoremIpsum } from 'react-lorem-ipsum';
 
 
 const About = () => {
@@ -19,7 +19,6 @@ const About = () => {
                 <h6>Chris also has bylines in Cambridge Day, Dig Boston, WGBH, Arts & Letters (Boston), New River Press (UK), The Charles River Journal, Fuck Your Dreams Zine, Property Materials, Wilderness House Literary Review, Digital Wheat Paste, Boston Hassle, Touristbook.com, and Boston Compass Newspaper. </h6>
 
                 <h6>When not working, Christopher enjoys cooking, hiking, biking, and reading, listening to and playing music. Chris is also a trained vocalist who specializes in rock vocals.</h6>
-
 
             </span>
         </div>

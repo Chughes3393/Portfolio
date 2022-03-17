@@ -5,7 +5,7 @@ const Nav = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="/">Chris Hues: Web Designer & Writer</Link>
+          <Link className="navbar-brand" to="/">Chris Hues: Web Dev & Writer</Link>
 
           <button className="navbar-toggler" 
           type="button" 
@@ -35,7 +35,7 @@ const Nav = () => {
               </li>
 
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="about">About</Link>
+                <Link className="nav-link" aria-current="page" to="about">About</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="contact">Contact</Link>

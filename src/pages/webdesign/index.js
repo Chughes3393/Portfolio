@@ -1,10 +1,13 @@
-import React from 'react';
+import './styles.css'
 
 const WebDesign = () => {
+
+
     return (
-        <div>
-            Web-Dev
-        </div>
+<div>
+    Web Design
+
+</div>
     );
 }
 

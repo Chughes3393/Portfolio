@@ -1,11 +1,10 @@
 #home-div{
-    margin: 15%;
+    margin: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid black; */
     text-align: center;
     height: 90vh;
     flex-direction: column;
-    
+    width: auto;
 }
