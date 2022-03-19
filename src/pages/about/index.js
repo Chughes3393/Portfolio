@@ -2,12 +2,9 @@ import React from 'react';
 import portfolioPhoto from '../../photos/portfolioPhoto.png'
 import './styles.css'
 
-// import { LoremIpsum } from 'react-lorem-ipsum';
-
-
 const About = () => {
     return (
-        <div>
+        <div class='container'>
             <img id='about-img' src={portfolioPhoto} alt='Chris Hues Photo' />
 
             <span id='content-about-div'>

@@ -5,16 +5,14 @@ const Foot = () => {
     return (
         <div id='footer-div'>
             <div id='text-div'>
-            <center><p id='footer-p'>Website Designed by Chris Hues Design</p>
-            <span ><i className="bi bi-instagram icon-white"><a></a></i>
+            <center><p id='footer-p'>Site by Chris Hues Design</p>
+            <span >
             &nbsp;
-            <i className="bi bi-twitter icon-white"><a href='#'></a></i>
+            <a href='https://www.linkedin.com/in/christopher-hughes-676ab2104/' ><i className="bi bi-linkedin icon-white"></i></a> 
             &nbsp;
-            <i className="bi bi-linkedin icon-white"><a href='#'></a></i>
+            <a href='needs to take you to gmail or w/e'><i className="bi bi-envelope icon-white"></i></a>
             &nbsp;
-            <i className="bi bi-envelope icon-white"><a href='#'></a></i>
-            &nbsp;
-            <i className="bi bi-github icon-white" ><a href='#'></a></i>
+            <a href='https://github.com/Chughes3393'><i className="bi bi-github icon-white"></i> </a>
             </span>
             </center>
             </div>

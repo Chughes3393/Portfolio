@@ -1,7 +1,7 @@
 #footer-div{
     margin-top: 2%;
     bottom: 0;
-    height: 5rem;
+    height: 10rem;
     /* border-top: 1px solid black; */
     display: flex;
     flex-direction: column;

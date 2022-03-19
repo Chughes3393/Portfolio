@@ -3,3 +3,23 @@
     flex-direction: column;
     align-items: center;
 } */
+
+/* .dropdown-menu.a:hover{
+    color:green; 
+} */
+
+/* a.dropdown-item:active::after{
+    color:green !important; 
+} */
+
+/* ul.nav li a, ul.nav li a:visited {
+    color: pink !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: pink !important;
+}
+
+ul.nav li.active a {
+    color: pink !important;
+} */

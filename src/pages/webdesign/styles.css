@@ -1,7 +1,21 @@
-.col{
-    border: 1px solid black;
+.container1{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-content: center;
+    justify-content: center;
 }
+
+#card1{
+    width: 100%;
+}
+
+#card2{
+    width: 100%;
+}
+#card3{
+    width: 100%;
+}
+
+/* .card{
+    width: 
+} */
