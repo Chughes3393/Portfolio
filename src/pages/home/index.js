@@ -5,51 +5,64 @@ import axios from 'axios'
 
 const Home = () => {
 
-  var ReactRotatingText = require('react-rotating-text');
-
   const [quotes, setQuotes] = useState([])
 
-  useEffect(() => {
-    fetchQuotes()
-  }, [])
+  // useEffect(() => {
+  //   fetchQuotes()
+  // }, [])
 
-  const fetchQuotes = async () => {
-    try {
-      const response = await axios.get('http://localhost:8081/api/v1/portfolio-back/allquotes')
+  // const fetchQuotes = async () => {
+  //   try {
+  //     const response = await axios.get('http://localhost:8081/api/v1/portfolio-back/allquotes')
 
-      // console.log(response)
-      setQuotes(response.data)
+  //     // console.log(response)
+  //     setQuotes(response.data)
 
-    } catch (err) {
-      console.log(err)
-    }
-  }
+  //   } catch (err) {
+  //     console.log(err)
+  //   }
+  // }
+
+//   useEffect(() => {
+//     const url = `http://localhost:8081/api/v1/portfolio-back/allquotes`;
+
+//     const fetchQuotes = async () => {
+//         try {
+//             const response = await fetch(url);
+//             const json = await response.json();
+//             console.log(response);
+//             setQuotes(json.slip.quotes);
+//         } catch (error) {
+//             console.log("error", error);
+//         }
+//     };
+
+//     fetchQuotes();
+// }, []);
+
+// const quoted = [{
+//   quote: 'blah blah blah',
+//   from: 'heh heh heh',
+//   whenre: 'here here here'
+// },
+// {  quote: 'blah blah blah',
+// from: 'heh heh heh',
+// whenre: 'here here here'}]
+
+// console.log=('quote' {quoted.quote})
 
   return (
 
-    <div>
-      {
-        quotes.map(quotes => {
-          return (
-            <div className='mt-5'>
-            <center>
-            <ReactRotatingText 
-            items={[
-              `${quotes.quote} ${quotes.from1}`,
-             `${quotes.quote} ${quotes.from1}`, 
-             `${quotes.quote} ${quotes.from1}`
-            ]} 
-             />
-              </center>
-            </div>
-          )
-        })
-      }
+      <div className='m-5' id='home-div'>
+<h2>
+"A 2019 study showed Greater Boston’s arts sector not only serves more people than the Red Sox, Celtics and Bruins combined, but contributes $2 billion into the local economy."
+</h2>
+<h5>- from 'Artists in Somerville’s Central Street Studios struggle to find space as leases end abruptly'</h5>
 
-    </div>
+
+      </div>
 
   );
 }
-
 
 export default Home;
