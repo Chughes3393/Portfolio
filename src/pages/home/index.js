@@ -54,10 +54,13 @@ const Home = () => {
   return (
 
       <div className='m-5' id='home-div'>
-<h2>
+{/* <h2>
 "A 2019 study showed Greater Boston’s arts sector not only serves more people than the Red Sox, Celtics and Bruins combined, but contributes $2 billion into the local economy."
+</h2> */}
+<h2>
+"Christopher Hues is a Professional Web Developer & Writer from Boston, Ma specializing in Front-End Design."
 </h2>
-<h5>- from 'Artists in Somerville’s Central Street Studios struggle to find space as leases end abruptly'</h5>
+{/* <h5>- from 'Artists in Somerville’s Central Street Studios struggle to find space as leases end abruptly'</h5> */}
 
 
       </div>

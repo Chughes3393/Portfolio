@@ -25,7 +25,7 @@ const Contact = () => {
             <form className='row g-2' ref={form} onSubmit={sendEmail}>
 
                 <div className="col-md-6">
-                    <label htmlFor="InputFirstName1" id='fname-label' className="form-label"> First Name: </label>
+                    <label htmlFor="InputFirstName1" id='fname-label' className="form-label">First Name: </label>
                     <input type="text" className="form-control" id="InputFirstName1" name='user_first_name' required/>
                 </div>
 

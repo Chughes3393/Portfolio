@@ -1,4 +1,5 @@
-import placeholder from '../../photos/placeholder.png'
+import './styles.css'
+
 import Hassle from '../../photos/Hassle.png'
 import Nodirection from '../../photos/Nodirection.png'
 

@@ -1,13 +1,11 @@
 import './styles.css'
 
-// import placeholder from '../../photos/placeholder.png'
 import Slimetooth from '../../photos/slimetooth.png'
 import Logo from '../../photos/Logo.png'
 import Bukowski from '../../photos/Bukowski.png'
 import Hassle from '../../photos/Hassle.png'
 
 const WebDesign = () => {
-
 
     return (
         <div className='container'>
@@ -68,7 +66,7 @@ const WebDesign = () => {
                         <div className="col-md-8">
                             <div className="card-body">
                                 <h5 className="card-title">Boston Hassle</h5>
-                                <p className="card-text">I am the wedmaster for <a href='https://bostonhassle.com'>Bostonhassle.com</a>, a digital art & culture magazine focusing on independent art, music, & film throughout New England and beyond. Boston Hassle uses Wordpress 5.9.2 so I am also an experienced Wordpress Developer.</p>
+                                <p className="card-text">I am the wedmaster for <a href='https://bostonhassle.com'>Bostonhassle.com</a>, a digital art & culture magazine focusing on independent art, music, & film throughout New England and beyond.</p>
                                 <p className="card-text"><small><a href='https://bostonhassle.com'>Link</a></small></p>
                             </div>
                         </div>
@@ -76,8 +74,6 @@ const WebDesign = () => {
                 </div>
             </div>
         </div>
-
-
     );
 }
 
